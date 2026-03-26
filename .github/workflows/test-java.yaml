@@ -22,6 +22,7 @@ on:
       - release/*
   schedule:
     - cron: '20 6 * * 1' # every Monday at 6:20 UTC
+  workflow_dispatch:  # 加这一行
 
 env:
   WITH_FATAL_WARNINGS: yes
